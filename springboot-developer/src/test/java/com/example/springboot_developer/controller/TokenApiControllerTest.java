@@ -48,7 +48,7 @@ public class TokenApiControllerTest {
         userRepository.deleteAll();
     }
 
-    @DisplayName("createNewAccessToken")
+    @DisplayName("createNewAccessToken 테스트")
     @Test
     public void createNewAccessToken() throws Exception {
         final String url = "/api/token";
